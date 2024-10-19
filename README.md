@@ -1,3 +1,3 @@
 # miosense
 
-A new Flutter project.
+ MIOSENSE V2 FLUTTER PROJECT
