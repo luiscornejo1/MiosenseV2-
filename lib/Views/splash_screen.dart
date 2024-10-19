@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 import 'login_view.dart';
 
-// lib/views/splash_screen.dart
-
-import 'package:flutter/material.dart';
-import 'login_view.dart';
 
 class SplashScreen extends StatelessWidget {
   @override

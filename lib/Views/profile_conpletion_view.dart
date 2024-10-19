@@ -88,9 +88,9 @@ class _ProfileCompletionViewState extends State<ProfileCompletionView> {
             ElevatedButton(
               onPressed: () {
                 // Acción al presionar "Start"
-                print('Perfil completado: ${fullNameController.text}, ${nicknameController.text}, ${emailController.text}, ${mobileNumberController.text}');
+                print('Perfil Completado: ${fullNameController.text}, ${nicknameController.text}, ${emailController.text}, ${mobileNumberController.text}');
                 Navigator.push(context,
-                MaterialPageRoute(builder:(context)=> MuscleSelectionView()));
+                MaterialPageRoute(builder:(context)=> MuscleSelectionView(fullName: '', height: '', weight: '', gender: '',)));
               },
               style: ElevatedButton.styleFrom(
                 shape: RoundedRectangleBorder(

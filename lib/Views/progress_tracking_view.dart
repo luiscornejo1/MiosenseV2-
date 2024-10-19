@@ -32,6 +32,7 @@ class _ProgressTrackingViewState extends State<ProgressTrackingView> {
 
     flutterBlue.startScan(timeout: Duration(seconds: 4));
 
+    // ignore: unused_local_variable
     var subscription = flutterBlue.scanResults.listen((results){
       for (ScanResult r in results){
         print('${r.device.name} found! rssi: ${r.rssi}');
