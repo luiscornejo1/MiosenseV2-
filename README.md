@@ -1,3 +1,3 @@
-# miosense
+# MIOSENSE
 
  MIOSENSE V2 FLUTTER PROJECT
